@@ -15,21 +15,11 @@ type Props = {
 }
 
 export const metadata: Metadata = {
-  title: "Hospital Management System",
-  description: "Efficient healthcare management solution",
-  generator: "v0.dev",
+  title: "Online Test Platform",
+  description: "Interactive and efficient platform for online quizzes and exams",
 }
 
 const inter = Inter({ subsets: ["latin"] })
-
-// export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-//   const t = await getTranslations({ locale, namespace: "Metadata" })
-
-//   return {
-//     title: t("title"),
-//     description: t("description"),
-//   }
-// }
 
 async function getLocales(locale: string) {
   try {
