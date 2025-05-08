@@ -1,0 +1,268 @@
+{
+  "Metadata": {
+    "title": "Online Test Platform",
+    "description": "Challenge yourself with various tests in different categories"
+  },
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "about": "About",
+      "admin": "Admin"
+    },
+    "language": "Change Language",
+    "toggleTheme": "Toggle Theme",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "Home": {
+    "hero": {
+      "title": "Test Your Knowledge",
+      "subtitle": "Challenge yourself with various tests in different categories and track your progress",
+      "startButton": "Start Testing"
+    },
+    "stats": {
+      "tests": "Available Tests",
+      "users": "Registered Users",
+      "categories": "Categories"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Our platform makes it easy to test your knowledge and track your progress",
+      "steps": {
+        "register": {
+          "title": "Register",
+          "description": "Create an account to access all tests and save your progress"
+        },
+        "choose": {
+          "title": "Choose a Test",
+          "description": "Browse through various categories and select a test that interests you"
+        },
+        "results": {
+          "title": "Get Results",
+          "description": "Complete the test and receive detailed feedback on your performance"
+        }
+      }
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "contact": "Contact"
+    }
+  },
+  "Login": {
+    "title": "Welcome back",
+    "subtitle": "Enter your credentials to access your account",
+    "form": {
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com",
+        "error": "Please enter a valid email address."
+      },
+      "password": {
+        "label": "Password",
+        "error": "Password is required."
+      },
+      "submit": "Login",
+      "submitting": "Please wait"
+    },
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "notifications": {
+      "loginSuccess": "Successfully logged in!"
+    }
+  },
+  "Register": {
+    "title": "Create an account",
+    "subtitle": "Enter your information to create an account",
+    "form": {
+      "firstName": {
+        "label": "First name",
+        "placeholder": "John",
+        "error": "First name must be at least 2 characters."
+      },
+      "lastName": {
+        "label": "Last name",
+        "placeholder": "Doe",
+        "error": "Last name must be at least 2 characters."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com",
+        "error": "Please enter a valid email address."
+      },
+      "password": {
+        "label": "Password",
+        "error": "Password must be at least 8 characters."
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "error": "Passwords don't match"
+      },
+      "submit": "Register",
+      "submitting": "Please wait"
+    },
+    "haveAccount": "Already have an account?",
+    "login": "Login",
+    "notifications": {
+      "registerSuccess": "Account created successfully!"
+    }
+  },
+  "Dashboard": {
+    "stats": {
+      "completedTests": "Completed Tests",
+      "averageScore": "Average Score",
+      "lastTest": "Last Test",
+      "daysAgo": "{{days}} days ago"
+    },
+    "availableTests": "Available Tests",
+    "searchPlaceholder": "Search tests...",
+    "categories": {
+      "all": "All Tests",
+      "academic": "Academic",
+      "language": "Language",
+      "it": "IT",
+      "trivia": "Trivia"
+    },
+    "levels": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "testCard": {
+      "questions": " questions",
+      "duration": "minutes",
+      "startButton": "Start Test"
+    },
+    "noTestsFound": "No tests found matching your search criteria.",
+    "notifications": {
+      "welcome": "Welcome back!"
+    }
+  },
+  "Test": {
+    "timeLeft": "Time Left",
+    "question": "Question {{current}} of {{total}}",
+    "complete": "{{percentage}}% Complete",
+    "nextButton": "Next",
+    "prevButton": "Previous",
+    "submitButton": "Submit Test",
+    "confirmSubmit": {
+      "title": "Submit Incomplete Test?",
+      "description": "You haven't answered all questions. Are you sure you want to submit the test?",
+      "continueButton": "Continue Test",
+      "submitButton": "Submit Anyway"
+    },
+    "timeout": {
+      "title": "Time's Up!",
+      "description": "Your time has expired. The test will be submitted with your current answers.",
+      "viewResults": "View Results"
+    }
+  },
+  "Results": {
+    "title": " - Results",
+    "completed": "Completed in ",
+    "score": {
+      "correct": "You answered {{correct}} out of {{total}} questions correctly"
+    },
+    "stats": {
+      "totalQuestions": "Total Questions",
+      "correctAnswers": "Correct Answers",
+      "incorrectAnswers": "Incorrect Answers",
+      "timeSpent": "Time Spent"
+    },
+    "actions": {
+      "dashboard": "Dashboard",
+      "share": "Share",
+      "retake": "Retake Test"
+    },
+    "detailedResults": "Detailed Results",
+    "question": "Question {{number}}",
+    "noResult": {
+      "title": "No Result Found",
+      "description": "We couldn't find any test results. Please take a test first.",
+      "button": "Go to Dashboard"
+    }
+  },
+  "Admin": {
+    "stats": {
+      "totalTests": "Total Tests",
+      "totalUsers": "Total Users"
+    },
+    "tabs": {
+      "tests": "Tests",
+      "users": "Users"
+    },
+    "tests": {
+      "addButton": "Add Test",
+      "title": "Manage Tests",
+      "description": "View, edit, and delete tests from the platform.",
+      "columns": {
+        "title": "Title",
+        "category": "Category",
+        "questions": "Questions",
+        "duration": "Duration",
+        "level": "Level",
+        "actions": "Actions"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "description": "View and manage users registered on the platform.",
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "testsCompleted": "Tests Completed",
+        "averageScore": "Average Score"
+      }
+    },
+    "addTest": {
+      "title": "Add New Test",
+      "description": "Create a new test for users to take.",
+      "form": {
+        "title": {
+          "label": "Test Title",
+          "placeholder": "e.g., Mathematics",
+          "error": "Title must be at least 2 characters."
+        },
+        "category": {
+          "label": "Category",
+          "error": "Please select a category."
+        },
+        "level": {
+          "label": "Difficulty Level",
+          "error": "Please select a difficulty level."
+        },
+        "questions": {
+          "label": "Number of Questions",
+          "placeholder": "e.g., 30",
+          "error": "Must have at least 1 question."
+        },
+        "duration": {
+          "label": "Duration (minutes)",
+          "placeholder": "e.g., 45",
+          "error": "Duration must be at least 1 minute."
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Brief description of the test"
+        },
+        "submit": "Save Test"
+      }
+    },
+    "editTest": {
+      "title": "Edit Test",
+      "description": "Make changes to the test details.",
+      "submit": "Save Changes"
+    },
+    "deleteTest": {
+      "title": "Delete Test",
+      "description": "Are you sure you want to delete this test? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    }
+  }
+}
+

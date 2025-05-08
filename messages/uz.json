@@ -1,0 +1,268 @@
+{
+  "Metadata": {
+    "title": "Onlayn Test Platformasi",
+    "description": "Turli xil kategoriyalardagi testlar bilan o'z bilimingizni sinab ko'ring"
+  },
+  "Header": {
+    "nav": {
+      "home": "Bosh sahifa",
+      "dashboard": "Boshqaruv paneli",
+      "about": "Biz haqimizda",
+      "admin": "Admin"
+    },
+    "language": "Tilni o'zgartirish",
+    "toggleTheme": "Mavzuni o'zgartirish",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "logout": "Chiqish"
+  },
+  "Home": {
+    "hero": {
+      "title": "Bilimingizni sinab ko'ring",
+      "subtitle": "Turli xil kategoriyalardagi testlar bilan o'zingizni sinab ko'ring va o'z natijalaringizni kuzating",
+      "startButton": "Testni boshlash"
+    },
+    "stats": {
+      "tests": "Mavjud testlar",
+      "users": "Ro'yxatdan o'tgan foydalanuvchilar",
+      "categories": "Kategoriyalar"
+    },
+    "howItWorks": {
+      "title": "Bu qanday ishlaydi",
+      "subtitle": "Bizning platformamiz bilimingizni sinab ko'rish va natijalaringizni kuzatishni osonlashtiradi",
+      "steps": {
+        "register": {
+          "title": "Ro'yxatdan o'ting",
+          "description": "Barcha testlarga kirish va natijalaringizni saqlash uchun hisob yarating"
+        },
+        "choose": {
+          "title": "Testni tanlang",
+          "description": "Turli kategoriyalarni ko'rib chiqing va sizni qiziqtirgan testni tanlang"
+        },
+        "results": {
+          "title": "Natijalarni oling",
+          "description": "Testni yakunlang va o'z natijalaringiz haqida batafsil ma'lumot oling"
+        }
+      }
+    },
+    "footer": {
+      "rights": "Barcha huquqlar himoyalangan.",
+      "terms": "Shartlar",
+      "privacy": "Maxfiylik",
+      "contact": "Aloqa"
+    }
+  },
+  "Login": {
+    "title": "Qaytib kelganingiz bilan",
+    "subtitle": "Hisobingizga kirish uchun ma'lumotlaringizni kiriting",
+    "form": {
+      "email": {
+        "label": "Elektron pochta",
+        "placeholder": "john@example.com",
+        "error": "Iltimos, to'g'ri elektron pochta manzilini kiriting."
+      },
+      "password": {
+        "label": "Parol",
+        "error": "Parol kiritish shart."
+      },
+      "submit": "Kirish",
+      "submitting": "Iltimos, kuting"
+    },
+    "forgotPassword": "Parolni unutdingizmi?",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "register": "Ro'yxatdan o'tish",
+    "notifications": {
+      "loginSuccess": "Muvaffaqiyatli kirildi!"
+    }
+  },
+  "Register": {
+    "title": "Hisob yaratish",
+    "subtitle": "Hisob yaratish uchun ma'lumotlaringizni kiriting",
+    "form": {
+      "firstName": {
+        "label": "Ism",
+        "placeholder": "John",
+        "error": "Ism kamida 2 ta belgidan iborat bo'lishi kerak."
+      },
+      "lastName": {
+        "label": "Familiya",
+        "placeholder": "Doe",
+        "error": "Familiya kamida 2 ta belgidan iborat bo'lishi kerak."
+      },
+      "email": {
+        "label": "Elektron pochta",
+        "placeholder": "john@example.com",
+        "error": "Iltimos, to'g'ri elektron pochta manzilini kiriting."
+      },
+      "password": {
+        "label": "Parol",
+        "error": "Parol kamida 8 ta belgidan iborat bo'lishi kerak."
+      },
+      "confirmPassword": {
+        "label": "Parolni tasdiqlang",
+        "error": "Parollar mos kelmaydi"
+      },
+      "submit": "Ro'yxatdan o'tish",
+      "submitting": "Iltimos, kuting"
+    },
+    "haveAccount": "Hisobingiz bormi?",
+    "login": "Kirish",
+    "notifications": {
+      "registerSuccess": "Hisob muvaffaqiyatli yaratildi!"
+    }
+  },
+  "Dashboard": {
+    "stats": {
+      "completedTests": "Yakunlangan testlar",
+      "averageScore": "O'rtacha ball",
+      "lastTest": "Oxirgi test",
+      "daysAgo": "{{days}} kun oldin"
+    },
+    "availableTests": "Mavjud testlar",
+    "searchPlaceholder": "Testlarni qidirish...",
+    "categories": {
+      "all": "Barcha testlar",
+      "academic": "Akademik",
+      "language": "Til",
+      "it": "IT",
+      "trivia": "Umumiy bilim"
+    },
+    "levels": {
+      "easy": "Oson",
+      "medium": "O'rta",
+      "hard": "Qiyin"
+    },
+    "testCard": {
+      "questions": " ta savol",
+      "duration": "daqiqa",
+      "startButton": "Testni boshlash"
+    },
+    "noTestsFound": "Qidiruv mezonlariga mos keladigan testlar topilmadi.",
+    "notifications": {
+      "welcome": "Qaytib kelganingiz bilan, !"
+    }
+  },
+  "Test": {
+    "timeLeft": "Qolgan vaqt",
+    "question": "Savol ",
+    "complete": " Yakunlandi",
+    "nextButton": "Keyingi",
+    "prevButton": "Oldingi",
+    "submitButton": "Testni topshirish",
+    "confirmSubmit": {
+      "title": "Tugallanmagan testni topshirishmi?",
+      "description": "Siz barcha savollarga javob bermadingiz. Testni topshirishni xohlaysizmi?",
+      "continueButton": "Testni davom ettirish",
+      "submitButton": "Baribir topshirish"
+    },
+    "timeout": {
+      "title": "Vaqt tugadi!",
+      "description": "Vaqtingiz tugadi. Test joriy javoblaringiz bilan topshiriladi.",
+      "viewResults": "Natijalarni ko'rish"
+    }
+  },
+  "Results": {
+    "title": " - Natijalar",
+    "completed": " da yakunlandi",
+    "score": {
+      "correct": "Siz {{total}} ta savoldan {{correct}} tasiga to'g'ri javob berdingiz"
+    },
+    "stats": {
+      "totalQuestions": "Jami savollar",
+      "correctAnswers": "To'g'ri javoblar",
+      "incorrectAnswers": "Noto'g'ri javoblar",
+      "timeSpent": "Sarflangan vaqt"
+    },
+    "actions": {
+      "dashboard": "Boshqaruv paneli",
+      "share": "Ulashish",
+      "retake": "Testni qayta topshirish"
+    },
+    "detailedResults": "Batafsil natijalar",
+    "question": "Savol {{number}}",
+    "noResult": {
+      "title": "Natija topilmadi",
+      "description": "Biz test natijalarini topa olmadik. Iltimos, avval testni topshiring.",
+      "button": "Boshqaruv paneliga o'tish"
+    }
+  },
+  "Admin": {
+    "stats": {
+      "totalTests": "Jami testlar",
+      "totalUsers": "Jami foydalanuvchilar"
+    },
+    "tabs": {
+      "tests": "Testlar",
+      "users": "Foydalanuvchilar"
+    },
+    "tests": {
+      "addButton": "Test qo'shish",
+      "title": "Testlarni boshqarish",
+      "description": "Platformadagi testlarni ko'rish, tahrirlash va o'chirish.",
+      "columns": {
+        "title": "Nomi",
+        "category": "Kategoriya",
+        "questions": "Savollar",
+        "duration": "Davomiyligi",
+        "level": "Daraja",
+        "actions": "Amallar"
+      }
+    },
+    "users": {
+      "title": "Foydalanuvchilarni boshqarish",
+      "description": "Platformada ro'yxatdan o'tgan foydalanuvchilarni ko'rish va boshqarish.",
+      "columns": {
+        "name": "Ism",
+        "email": "Elektron pochta",
+        "testsCompleted": "Yakunlangan testlar",
+        "averageScore": "O'rtacha ball"
+      }
+    },
+    "addTest": {
+      "title": "Yangi test qo'shish",
+      "description": "Foydalanuvchilar uchun yangi test yarating.",
+      "form": {
+        "title": {
+          "label": "Test nomi",
+          "placeholder": "masalan, Matematika",
+          "error": "Nom kamida 2 ta belgidan iborat bo'lishi kerak."
+        },
+        "category": {
+          "label": "Kategoriya",
+          "error": "Iltimos, kategoriyani tanlang."
+        },
+        "level": {
+          "label": "Qiyinlik darajasi",
+          "error": "Iltimos, qiyinlik darajasini tanlang."
+        },
+        "questions": {
+          "label": "Savollar soni",
+          "placeholder": "masalan, 30",
+          "error": "Kamida 1 ta savol bo'lishi kerak."
+        },
+        "duration": {
+          "label": "Davomiyligi (daqiqa)",
+          "placeholder": "masalan, 45",
+          "error": "Davomiyligi kamida 1 daqiqa bo'lishi kerak."
+        },
+        "description": {
+          "label": "Tavsif",
+          "placeholder": "Test haqida qisqacha tavsif"
+        },
+        "submit": "Testni saqlash"
+      }
+    },
+    "editTest": {
+      "title": "Testni tahrirlash",
+      "description": "Test tafsilotlariga o'zgartirishlar kiriting.",
+      "submit": "O'zgarishlarni saqlash"
+    },
+    "deleteTest": {
+      "title": "Testni o'chirish",
+      "description": "Haqiqatan ham bu testni o'chirishni xohlaysizmi? Bu amalni qaytarib bo'lmaydi.",
+      "cancel": "Bekor qilish",
+      "confirm": "O'chirish"
+    }
+  }
+}
+
